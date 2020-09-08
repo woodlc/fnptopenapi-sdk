@@ -3,3 +3,4 @@ cache
 logs
 .idea
 tests
+/vendor
