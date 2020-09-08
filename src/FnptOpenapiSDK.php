@@ -119,8 +119,7 @@ class FnptOpenapiSDK
             $data['para'] = Common::jsonEncode($para);
             $url = $this->apiHost . self::TOKEN_PATH ;
             $res = Common::httpRequest($url,$data);
-            $res = $this->hlandData($res);
-            $token_data = json_decode($res,true);
+            $token_data = $this->hlandData($res);
             if(!empty($token_data['token'])){
                 $this->cache->set('FnptOpenSdk_token_'.$user_id,$token_data,$token_data['token_expire_at']-time());
                 return $token_data['token'];
