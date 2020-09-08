@@ -1,6 +1,7 @@
 {
     "name": "woodlc/fnptopen-sdk",
     "description": "蜂鸟跑腿",
+    "version": "1.0",
     "type": "library",
     "license": "MIT",
     "authors": [
