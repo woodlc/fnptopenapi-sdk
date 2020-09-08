@@ -1,0 +1,21 @@
+{
+    "name": "FnptOpenSdk",
+    "description": "蜂鸟跑腿",
+    "authors": [
+        {
+            "name": "chao li",
+            "email": "373845395@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "woodlc\\FnptOpenSdk\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
