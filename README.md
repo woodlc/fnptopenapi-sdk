@@ -71,6 +71,7 @@ $user_id = '';  //用户id
 
 ### 仓库地址
 
+[Gitee](https://gitee.com/373845395/fnptopenapi-sdk.git)<br>
 [Github](https://github.com/woodlc/FnptOpenapiSDK "FnptOpenapiSDK")<br>
 
 ### 协议
